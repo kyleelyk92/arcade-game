@@ -110,7 +110,7 @@ class Player {
         grassSound.stop();
         grassSound.play();
       }
-      if (player.y > 100 && player.y < 300) {
+      if (player.y > 50 && player.y < 300) {
         stoneSound.play();
       }
     }
